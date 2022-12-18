@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/fragmentExplor2">
+    <fragment
+        android:id="@+id/fragmentExplor2"
+        android:name="com.example.movies.fragment.explore.Explore"
+        android:label="FragmentExplor"
+        tools:layout="@layout/fragment_explor">
+        <action
+            android:id="@+id/action_fragmentExplor2_to_details2"
+            app:destination="@id/details2" />
+    </fragment>
+    <fragment
+        android:id="@+id/details2"
+        android:name="com.example.movies.fragment.Details.Details"
+        android:label="fragment_details"
+        tools:layout="@layout/fragment_details" >
+       >
+    </fragment>
+    <fragment
+        android:id="@+id/favorites"
+        android:name="com.example.movies.fragment.Favoritrs.favorites"
+        android:label="fragment_favorites"
+        tools:layout="@layout/fragment_favorites" >
+        <action
+            android:id="@+id/action_favorites_to_details2"
+            app:destination="@id/details2" />
+    </fragment>
+    <fragment
+        android:id="@+id/ranck2"
+        android:name="com.example.movies.fragment.Rack.refresh.Ranck"
+        android:label="fragment_ranck"
+        tools:layout="@layout/fragment_ranck" >
+        <action
+            android:id="@+id/action_ranck2_to_details2"
+            app:destination="@id/details2" />
+    </fragment>
+</navigation>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/Explore_page"
+        android:icon="@drawable/explore"
+        android:title="Explore" />
+    <item
+        android:id="@+id/rank_page"
+        android:icon="@drawable/rate"
+        android:title="Rank" />
+    <item
+        android:id="@+id/Favorite_page"
+        android:icon="@drawable/favorite"
+        android:title="Favorite" />
+</menu>
